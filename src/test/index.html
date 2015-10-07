@@ -1,0 +1,181 @@
+<template>
+
+  <!-- <link rel="stylesheet" media="screen" href="styles/materializeAlt.css" /> -->
+  <section class="au-animate">
+
+    <main>
+      <div class="container">
+
+        <frameset cols="75%">
+
+          <frame src="http://www.brookbridgeinc.com">
+        </frameset>
+
+        <div class="row">
+
+          <div class="col s12 m9 l10">
+
+            <div id="introduction" class="section scrollspy">
+              <h4>Introduction</h4>
+              <p class="caption">Pushpin is our fixed positioning plugin. You can check out our live examples: the fixed Table of Contents on the right. </p>
+            </div>
+
+
+
+            <div id="initialization" class="section scrollspy">
+              <h4>jQuery Plugin Initialization</h4>
+              <pre>
+                <code class="language-javascript col s12">
+
+                </code>
+              </pre>
+            </div>
+
+
+
+            <div id="options" class="section scrollspy">
+              <h4>jQuery Plugin Options</h4>
+              <table class="hoverable">
+                <thead>
+                  <tr>
+                    <th>Option Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>Top</td>
+                    <td>The distance in pixels from the top of the page where the element becomes fixed. (Default: 0)</td>
+                  </tr>
+                  <tr>
+                    <td>Bottom</td>
+                    <td>The distance in pixels from the top of the page where the elements stops being fixed. (Default: Infinity)</td>
+                  </tr>
+                  <tr>
+                    <td>Offset</td>
+                    <td>The offset from the top the element will be fixed at. (Default: 0)</td>
+                  </tr>
+                  <tr>
+                    <td>Top</td>
+                    <td>The distance in pixels from the top of the page where the element becomes fixed. (Default: 0)</td>
+                  </tr>
+                  <tr>
+                    <td>Bottom</td>
+                    <td>The distance in pixels from the top of the page where the elements stops being fixed. (Default: Infinity)</td>
+                  </tr>
+                  <tr>
+                    <td>Offset</td>
+                    <td>The offset from the top the element will be fixed at. (Default: 0)</td>
+                  </tr>
+                  <tr>
+                    <td>Top</td>
+                    <td>The distance in pixels from the top of the page where the element becomes fixed. (Default: 0)</td>
+                  </tr>
+                  <tr>
+                    <td>Bottom</td>
+                    <td>The distance in pixels from the top of the page where the elements stops being fixed. (Default: Infinity)</td>
+                  </tr>
+                  <tr>
+                    <td>Offset</td>
+                    <td>The offset from the top the element will be fixed at. (Default: 0)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+
+          <!-- Table of Contents -->
+          <div class="col s2 offset-s5 blue-grey lighten-5 pinned" id="sticky">
+            <h5>Pin me!</h5>
+            <p>I want to be sticky</p>
+            <div class="buysellads hide-on-small-only">
+              <!-- CarbonAds Zone Code -->
+              <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=materializecss" id="_carbonads_js"></script>
+            </div>
+            <div style="height: 1px;">
+              <ul class="section table-of-contents">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#initialization">Initialization</a></li>
+                <li><a href="#options">Options</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- .col s2 -->
+
+        </div>
+
+
+        <!-- <div class="col hide-on-small-only m3 l2">
+         <div class="toc-wrapper">
+           <div class="buysellads hide-on-small-only"> -->
+        <!-- CarbonAds Zone Code -->
+        <!-- <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=materializecss" id="_carbonads_js"></script>
+           </div>
+           <div style="height: 1px;">
+             <ul class="section table-of-contents">
+               <li><a href="#introduction">Introduction</a></li>
+               <li><a href="#initialization">Initialization</a></li>
+               <li><a href="#options">Options</a></li>
+             </ul>
+           </div>
+         </div>
+       </div> -->
+
+      </div>
+      <!-- </div> -->
+      <!-- Demo -->
+      <h2 class="header">ScrollFire Demo</h2>
+        <img  class="whoosh" src="//www.placehold.it/300" />
+        <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
+
+      <img class="responsive-img" src="https://unsplash.imgix.net/reserve/nE6neNVdRPSIasnmePZe_IMG_1950.jpg?dpr=1.25&fit=crop&fm=jpg&h=700&q=75&w=1050">
+
+      <p>Scroll through slowly to get sense of what ScrollFire can do for you. This is the ScrollFire code that we have used on this page.</p>
+      <pre>
+        <code class="language-javascript">
+          var options = [</code>
+        <code id="call-1" class="language-javascript">{selector: '#staggered-test', offset: 50, callback: 'Materialize.toast("This is our ScrollFire Demo!", 1500 )' },</code>
+        <code id="call-2" class="language-javascript">{selector: '#staggered-test', offset: 205, callback: 'Materialize.toast("Please continue scrolling!", 1500 )' },</code>
+        <code id="call-3" class="language-javascript">{selector: '#staggered-test', offset: 400, callback: 'Materialize.showStaggeredList("#staggered-test")' },</code>
+        <code id="call-4" class="language-javascript">{selector: '#image-test', offset: 500, callback: 'Materialize.fadeInImage("#image-test")' }</code>
+        ]; Materialize.scrollFire(options);
+        </code>
+      </pre>
+      <ul id="staggered-test">
+        <li>
+          <h4><a href="#">List Item</a></h4>
+          <p>This is a description</p>
+        </li>
+        <li>
+          <h4><a href="#">List Item</a></h4>
+          <p>This is a description</p>
+        </li>
+        <li>
+          <h4><a href="#">List Item</a></h4>
+          <p>This is a description</p>
+        </li>
+        <li>
+          <h4><a href="#">List Item</a></h4>
+          <p>This is a description</p>
+        </li>
+        <li>
+          <h4><a href="#">List Item</a></h4>
+          <p>This is a description</p>
+        </li>
+      </ul>
+
+      <img id="image-test" class="responsive-img" src="https://unsplash.imgix.net/reserve/nE6neNVdRPSIasnmePZe_IMG_1950.jpg?dpr=1.25&fit=crop&fm=jpg&h=700&q=75&w=1050">
+
+
+      </div>
+
+    </main>
+
+
+
+
+  </section>
+</template>

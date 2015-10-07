@@ -46,3 +46,8 @@ To run the app locally, follow these steps:
 ```html
 <script src="jspm_packages/github/webcomponents/webcomponentsjs@0.5.2/HTMLImports.js"></script>
 ```
+## Additions jy JRT
+Tried to add scrollfire
+i found the doing the following fixed my issues.
+npm install jspm --save-dev
+npm instal gulp
