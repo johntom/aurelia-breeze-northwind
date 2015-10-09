@@ -47,15 +47,10 @@ To run the app locally, follow these steps:
 <script src="jspm_packages/github/webcomponents/webcomponentsjs@0.5.2/HTMLImports.js"></script>
 ```
 ## Additions by JRT
-Tried to add scrollfire
-i found the doing the following fixed my issues.
-1. Ensure that [NodeJS](http://nodejs.org/) is installed. This provides the platform on which the build tooling runs.
-2. From the project folder, execute the following command:
-1.git clone https://github.com/jdanyow/aurelia-breeze-northwind.git
-2.cd aurelia-breeze-northwind
-npm  install
-npm install jspm --save-dev
-jspm install -y
-jspm install aurelia-animator-css aurelia-binding aurelia-bootstrapper aurelia-dependency-injection aurelia-framework aurelia-http-client aurelia-router aurelia-event-aggregator aurelia-history-browser aurelia-loader-default aurelia-loader aurelia-metadata aurelia-route-recognizer aurelia-templating-binding aurelia-templating-resources aurelia-templating-router aurelia-templating aurelia-logging aurelia-task-queue aurelia-history aurelia-path
-gulp watch
 
+
+1. git clone https://github.com/jdanyow/aurelia-breeze-northwind.git
+2. From the project folder, execute the following command:
+3. npm  install
+4. jspm install -y
+5. see test as Tried to add scrollfire and animate
