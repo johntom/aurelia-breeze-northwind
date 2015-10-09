@@ -49,8 +49,8 @@ To run the app locally, follow these steps:
 ## Additions by JRT
 Tried to add scrollfire
 i found the doing the following fixed my issues.
-git clone https://github.com/jdanyow/aurelia-breeze-northwind.git
-cd aurelia-breeze-northwind
+1.git clone https://github.com/jdanyow/aurelia-breeze-northwind.git
+2.cd aurelia-breeze-northwind
 npm  install
 npm install jspm --save-dev
 jspm install -y
